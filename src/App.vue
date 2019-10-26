@@ -17,7 +17,7 @@
 			}
 		},
 		mounted(){
-			axios.get('http://localhost:3000/api/users').then(res=>{
+			axios.get('http://120.27.3.92/api/users').then(res=>{
 				 this.users = res.data;
 				 
 			})
