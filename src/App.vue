@@ -2,7 +2,9 @@
 	<div id="app">
 		<img alt="Vue logo" src="./assets/logo.png">
 		<ul>
-			<li v-for="item in users">{{item.name}}</li>
+			<li v-for="item in users">
+			   {{item.id}} : {{item.name}}
+			</li>
 		</ul>
 	</div>
 </template>
